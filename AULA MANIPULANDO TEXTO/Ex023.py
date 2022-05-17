@@ -1,0 +1,6 @@
+num = int(input('Digite um número de 0 a 9999: '))
+print('Analizando esse número temos: ')
+print(f'Milhares: {num//1000 % 10}')
+print(f'Centenas: {num//100%10}')
+print(f'Dezenas: {num//10%10}')
+print(f'Unicades: {num//1%10}')
